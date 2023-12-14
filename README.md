@@ -10,7 +10,7 @@
 <br/>
 
 <div align="center">
-  <h1 style="border-bottom: none;"> Book An Appointment App </h1>
+  <h1 style="border-bottom: none;"> 🙋‍♂️ Book An Appointment App 🏍️ </h1>
 </div>
 
 <br/>
