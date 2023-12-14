@@ -40,6 +40,8 @@
       - [Reference Design](#reference-design)
   - [📝 License ](#-license-)
 
+<br/>
+
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Final group capstone - Book an Appointment <a name="about-project"></a>
