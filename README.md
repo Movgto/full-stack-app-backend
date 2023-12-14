@@ -4,7 +4,7 @@
 </div>  
 
 <div align="center">
-  <img src="" alt="readme-gif" width="500" height="400" style="display: inline-block;">
+  <img src="https://github.com/Movgto/full-stack-app-backend/blob/feature/setup-database-schema/app/assets/images/ERD.png?raw=true" alt="readme-gif" width="500" height="400" style="display: inline-block;">
 </div>
 
 <br/>
