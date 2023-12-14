@@ -1,11 +1,22 @@
 Rails.application.routes.draw do
-  resources :users
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  # We could include these later when using rswag for API documentation
+  # mount Rswag::Ui::Engine => '/api-docs'
+  # mount Rswag::Api::Engine => '/api-docs'
 
-  # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
-  # Can be used by load balancers and uptime monitors to verify that the app is live.
+  namespace :api do
+    namespace :v1 do
+      # Custom routes for user-specific actions
+      get 'users/:user_id/reservations', to: 'reservations#user_reservations'
+      get 'users/:user_id/items', to: 'reservations#user_items'
+
+      resources :items
+      resources :users
+      resources :reservations
+    end
+  end
+  # Let's keep the health check route as it is.
   get "up" => "rails/health#show", as: :rails_health_check
 
-  # Defines the root path route ("/")
-  # root "posts#index"
+  # We might also want to define at some point a root route for our app.
+  # root "some_controller#some_action"
 end
