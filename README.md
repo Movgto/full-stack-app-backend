@@ -44,9 +44,9 @@
 
 # 📖 Final group capstone - Book an Appointment <a name="about-project"></a>
 
-**[Description]**
-
 The project we built for the Final Project is based on an app to book an appointment to test ride a Ducati motorcycle. 
+
+<br/>
 
 ## 🚀 Frontend App <a name="frontend"></a>
 
