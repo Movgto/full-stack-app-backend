@@ -186,12 +186,6 @@ rails s
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Gumaro Monroy**
-
-- GitHub: [@Movgto](https://github.com/Movgto)
-- LinkedIn: [Gumaro Monroy](https://www.linkedin.com/in/gumaro-monroy-vazquez-1705aa165/)
-
-
 👤 **Cristian Villa**
 
 - GitHub: [@CVILLA09](https://github.com/cvilla09)
@@ -248,7 +242,6 @@ If you found this project helpful, consider giving a ⭐️!
 We would like to express our deepest gratitude to all the people that have contributed to make this project possible.
 
 #### Development Team
-- **Gumaro Monroy**
 - **Cristian Villa**
 - **Sebastian Gonzalez**
 
