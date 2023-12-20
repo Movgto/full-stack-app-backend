@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
-  # We could include these later when using rswag for API documentation
-  # mount Rswag::Ui::Engine => '/api-docs'
-  # mount Rswag::Api::Engine => '/api-docs'
+  mount Rswag::Api::Engine => '/api-docs'
+  mount Rswag::Ui::Engine => '/api-docs'
 
   namespace :api do
     namespace :v1 do
@@ -14,9 +13,4 @@ Rails.application.routes.draw do
       resources :reservations
     end
   end
-  # Let's keep the health check route as it is.
-  get "up" => "rails/health#show", as: :rails_health_check
-
-  # We might also want to define at some point a root route for our app.
-  # root "some_controller#some_action"
 end
