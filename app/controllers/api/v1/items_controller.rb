@@ -43,7 +43,11 @@ module Api
 
       # DELETE /items/1
       def destroy
-        @item.destroy
+        if @item.destroy
+          render json: @item
+        else
+          render json: @item.errors, status: :unprocessable_entity
+        end
       end
 
       private
